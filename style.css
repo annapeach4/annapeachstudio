@@ -12,14 +12,79 @@ body {
  }
 
 
-.img1{
-	width: 3%;
-  height: auto;
+.container {
+	position: relative;
+	width:1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 30px;
+
+}
+
+.container .card {
+	position: relative;
+	max-width: 300px;
+	height: 420px;
+	background: white;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	border-radius: 10px;
+
 }
 
 
+.container .card2 video{
+	position: relative;
+	max-width: 350px;
+	height: 200px;
+	background: white;
+	padding: 20px 20px;
+	border-radius: 10px;
+	margin-bottom: 215px;
+	margin-left: 10px;
+
+
+}
+.container .card .imgBx {
+	position: relative;
+	width:260px;
+	height: 260px;
+
+	
+}
+
+.container .card .imgBx img{
+	max-width: 100%;
+	border-radius: 4px;
+
+}
+
+.container .card .imgBx video{
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+
+
+
+}
+
+
+
+.img{
+	width: 10%;
+	height:10%;
+	margin-left: 300px;
+	margin-bottom:-1500px;
+
+}
+
+
+
  #nav { 
- 	background: pink;
+ 	background: #194350;
  	width: 100%;
  	height: 62px;
  	line-height: 60px;
@@ -29,8 +94,8 @@ body {
  #nav h1 { 
  	float: left;
  	font-family: 'Kiwi Maru', serif;
- 	color: black;
- 	margin-left: 10px;
+ 	color: white;
+ 	margin-left: 80px;
 
 
  }
@@ -38,7 +103,7 @@ body {
  #nav h1 a { 
 
  	text-decoration: none;
- 	color: black;
+ 	color: white;
  	margin-left: 20px;
 
   }
@@ -60,15 +125,15 @@ body {
  #nav ul li a {
  	font-family: 'Kiwi Maru', serif;
  	text-decoration: none;
- 	color: black;
- 	padding: 30px;
+ 	color: white;
+ 	padding: 20px;
 
  }
 
  #nav ul li :hover { 
- 	background: #017143;
+ 	background: #194350;
  	transition: all ease-in-out 0.40s;
- 	padding: 50px;
+ 	padding: 30px;
  }
 
 
@@ -79,13 +144,13 @@ body {
 
  }
 #anna { 
-	background: pink; 
+	background: white; 
 }
 
 
 
 #anna1 { 
-	background: pink; 
+	background: #194350; 
 	height: 70px;
 
 }
@@ -169,11 +234,16 @@ body {
  
   }
 
+.aboutus p {
+	position: relative;
+	align-items: center;
+	padding-left:10em;
+	margin-top: 8em;
+	font-size: 1000;
+	color: #333;
+	font-family: 'Kiwi Maru', serif;
 
-
-
-
-
+}
 
 
 
@@ -273,7 +343,7 @@ footer{
 	bottom:-250px;
 	left: 0;
 	right: 0;
-	background: pink;
+	background: #194350;
 	height: 100px;
 	width: 100vw;
 	font-family: 'Kiwi Maru', serif;
@@ -287,18 +357,22 @@ footer{
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	color: #9DBEB9;
 }
 .footer-content h3{ 
 	font-size: 1.3rem;
 	font-weight: 500;
 	text-transform: capitalize;
 	line-height: 2rem;
+	color: #9DBEB9;
 }
 .footer-content p{
 	max-width: 200px;
 	margin: 2px auto;
 	line-height: 50px;
 	font-size: 9px;
+	color: #9DBEB9;
+
 
 }
 .socials {
@@ -317,7 +391,7 @@ footer{
 }
 .socials a{
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 .socials a i{
@@ -332,7 +406,7 @@ footer{
 }
 
 .footer-bottom{
-	background: pink;
+	background: #194350;
 	width: 100vw;
 	padding: 3px 0;
 	text-align: center;
@@ -344,6 +418,8 @@ footer{
 	font-size: 10px;
 	word-spacing: 2px;
 	text-transform: capitalize;
+	color: #9DBEB9;
+
 }
 
 .footer-bottom span{

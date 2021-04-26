@@ -331,6 +331,13 @@ body {
 }
 
 
+
+.email h1{
+	margin-left: 500px;
+    padding-top: 350px;
+}
+
+
 *{ margin: 0;
    padding: 0;
    box-sizing: border-box;
